@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1776256713 source:c:\users\alumno\desktop\15-4-26\tp_prog2\main.cpp
+	<iostream>
+	<stdio.h>
+
+1776252413 c:\users\alumno\desktop\15-4-26\tp_prog2\include\contador.h
+
+1776252579 source:c:\users\alumno\desktop\15-4-26\tp_prog2\src\contador.cpp
+	<iostream>
+	"contador.h"
+
+1776259569 source:c:\users\alumno\desktop\15-4-26\tp_prog2\src\fecha.cpp
+	"Fecha.h"
+
+1776259539 c:\users\alumno\desktop\15-4-26\tp_prog2\include\fecha.h
+
+1776259037 source:c:\users\alumno\desktop\15-4-26\tp_prog2\src\persona.cpp
+	"persona.h"
+
+1776259638 c:\users\alumno\desktop\15-4-26\tp_prog2\include\persona.h
+	"Fecha.h"
+
+1776260648 source:c:\users\alumno\desktop\15-4-26\tp_prog2\src\instructor.cpp
+	"Instructor.h"
+
+1776261852 c:\users\alumno\desktop\15-4-26\tp_prog2\include\instructor.h
+	"Persona.h"
+
