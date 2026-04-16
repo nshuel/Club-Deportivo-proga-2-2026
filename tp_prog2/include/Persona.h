@@ -6,9 +6,7 @@
 class Persona
 {
     private:
-        int edad;
         int dni;
-        char domicilio[50];
         char apellido[50];
         char nombre[50];
         Fecha fechaNacimiento;
@@ -18,29 +16,26 @@ class Persona
     public:
         Persona();
 
-        int getEdad();
-        void setEdad(int val);
-
         int getDni();
-        void setDni(int val);
-
-        const char * getDomicilio();
-        void setDomicilio(const char * val);
+        void setDni(int );
 
         const char * getApellido();
-        void setApellido(const char * val);
+        void setApellido(const char *);
 
         const char * getNombre();
-        void setNombre(const char * val);
+        void setNombre(const char *);
 
         Fecha getFechaNacimiento();
-        void setFechaNacimiento(Fecha val);
+        void setFechaNacimiento(Fecha);
 
         const char * getEmail();
-        void setEmail(const char *val);
+        void setEmail(const char *);
 
         int getTelefono();
-        void setTelefono(int val);
+        void setTelefono(int );
+
+        void cargar();
+        void mostrar();
 
     protected:
 

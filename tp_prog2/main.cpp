@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <filesystem>
 #include <cstring>
-
+#include "Persona.h"
 #include "menus.h"
 
 #define existe(path) std::filesystem::exists(path)
@@ -13,6 +13,8 @@ void menuPrincipal(){
 }
 int main()
 {
+    Persona obj;
+    obj.cargar();
     /*
     const char archivoAlumnos[] = "./archivos/Alumnos.dat";
     FILE *f_alumnos;
@@ -51,6 +53,10 @@ int main()
             - inscribir socio a clase
             - listarInscripciones
         reportes
+            - Cuanto se recaudo del mes x al mes x
+            - Cuantos socios se anotaron despues de x
+            - Cuanto se recaudo al final del año por deporte
+            - Cuanto genero el club x año
 
     */
     //menuPrincipal();

@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -32,7 +33,64 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="main.cpp" />
+		<UnitsGlob directory="..\tp_prog2" wildcard="*.h;*.cpp" recursive="1" id="3137897715" addToProject="1">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</UnitsGlob>
+		<Unit filename="include/Clase.h">
+			<Option glob="3137897715" />
+		</Unit>
+		<Unit filename="include/Fecha.h">
+			<Option glob="3137897715" />
+		</Unit>
+		<Unit filename="include/Inscripcion.h">
+			<Option glob="3137897715" />
+		</Unit>
+		<Unit filename="include/Instructor.h">
+			<Option glob="3137897715" />
+		</Unit>
+		<Unit filename="include/Persona.h">
+			<Option glob="3137897715" />
+		</Unit>
+		<Unit filename="include/Socio.h">
+			<Option glob="3137897715" />
+		</Unit>
+		<Unit filename="include/cargarCadena.h">
+			<Option glob="3137897715" />
+		</Unit>
+		<Unit filename="include/menus.h">
+			<Option glob="3137897715" />
+		</Unit>
+		<Unit filename="main.cpp">
+			<Option glob="3137897715" />
+		</Unit>
+		<Unit filename="src/Clase.cpp">
+			<Option glob="3137897715" />
+		</Unit>
+		<Unit filename="src/Fecha.cpp">
+			<Option glob="3137897715" />
+		</Unit>
+		<Unit filename="src/Inscripcion.cpp">
+			<Option glob="3137897715" />
+		</Unit>
+		<Unit filename="src/Instructor.cpp">
+			<Option glob="3137897715" />
+		</Unit>
+		<Unit filename="src/Socio.cpp">
+			<Option glob="3137897715" />
+		</Unit>
+		<Unit filename="src/cargarCadena.cpp">
+			<Option glob="3137897715" />
+		</Unit>
+		<Unit filename="src/funcionesMenus/funcionesSocio.cpp">
+			<Option glob="3137897715" />
+		</Unit>
+		<Unit filename="src/menus.cpp">
+			<Option glob="3137897715" />
+		</Unit>
+		<Unit filename="src/persona.cpp">
+			<Option glob="3137897715" />
+		</Unit>
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

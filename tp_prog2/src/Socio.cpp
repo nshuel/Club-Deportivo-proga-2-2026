@@ -1,4 +1,6 @@
 #include "Socio.h"
+#include <iostream>
+using namespace std;
 
 Socio::Socio()
 {
@@ -15,6 +17,11 @@ Socio::Socio(int id, Fecha f)
 void Socio::setidSocio(int id)
 {
     idSocio = id;
+}
+
+void Socio::setEstado(bool est)
+{
+    estado=est;
 }
 
 void Socio::setFechaInscripcion(Fecha f)
@@ -36,3 +43,16 @@ float Socio::cuotaMensual()
     const int arancelBasico = 10000;
     return arancelBasico; // falta sumar por cada deporte
 }
+
+/*void Socio::cargarSocio()
+{
+    cout<<"------- Cargar Socio: -------"<<endl;
+    cout<<"Ingrese nombre del socio: "<<endl;
+    cin>>nombre;
+    cout<<"Ingrese apellido del socio: "<<endl;
+    cin>>apellido;
+    cout<<"Ingrese DNI del socio: "<<endl;
+    cin>>dni;
+
+}
+*/

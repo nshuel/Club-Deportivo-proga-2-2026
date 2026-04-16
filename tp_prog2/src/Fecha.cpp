@@ -1,5 +1,6 @@
 #include "Fecha.h"
-
+#include <iostream>
+using namespace std;
 Fecha::Fecha()
 {
     anio = 2000;
@@ -56,4 +57,17 @@ void Fecha::setFecha(int a, int m, int d)
     setAnio(a);
     setMes(m);
     setDia(d);
+}
+
+void Fecha::Cargar(){
+    cout<<"DIA: ";
+    cin>>dia;
+    cout<<"MES: ";
+    cin>>mes;
+    cout<<"AÑO: ";
+    cin>>anio;
+}
+
+void Fecha::Mostrar(){
+    cout<<dia<<"/"<<mes<<"/"<<anio;
 }

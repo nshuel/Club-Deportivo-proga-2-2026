@@ -1,5 +1,7 @@
-
-
+#include <iostream>
+#include "Persona.h"
+using namespace std;
+/*
 void menuSocios()
 {
     int seleccionSocio = 0;
@@ -73,3 +75,4 @@ void menuPrincipal()
         }
     }
 }
+*/

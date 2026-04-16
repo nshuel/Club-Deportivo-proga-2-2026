@@ -24,6 +24,8 @@ class Fecha
         void setAnio( int val);
 
         void setFecha(int a, int m, int d);
+        void Cargar();
+        void Mostrar();
 
     protected:
 

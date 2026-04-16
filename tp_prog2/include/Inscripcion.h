@@ -13,14 +13,14 @@ class Inscripcion
         Inscripcion();
         Inscripcion(int,int,int);
 
-        int getidInscripcion()
-        void setidInscripcion(int)
+        int getidInscripcion();
+        void setidInscripcion(int);
 
-        int getidSocio()
-        void setidSocio(int)
+        int getidSocio();
+        void setidSocio(int);
 
-        int getidActividad()
-        void setidActividad(int)
+        int getidActividad();
+        void setidActividad(int);
 
     protected:
 

@@ -2,9 +2,13 @@
 #define INSTRUCTOR_H
 
 #include "Persona.h"
+#include "Fecha.h"
 
 class Instructor : public Persona
 {
+    private:
+        int idInstructor;
+        Fecha fechaContrato;
     public:
         Instructor();
         void setidInstructor(int id);
@@ -15,9 +19,6 @@ class Instructor : public Persona
 
     protected:
 
-    private:
-        int idInstructor;
-        Fecha fechaContrato;
 };
 
 #endif // INSTRUCTOR_H
