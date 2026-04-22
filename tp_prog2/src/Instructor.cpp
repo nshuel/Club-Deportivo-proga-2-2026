@@ -1,4 +1,6 @@
 #include "Instructor.h"
+#include <iostream>
+using namespace std;
 
 Instructor::Instructor()
 {
@@ -31,3 +33,12 @@ Instructor::Instructor()
  {
      return fechaContrato;
  }
+void Instructor::cargar()
+{
+    cout<<"==========================="<<endl;
+    Persona::cargar();
+    cout<<endl;
+    cout<<"FECHA DE CONTRATO: "<<endl;
+    fechaContrato.Cargar();
+    cout<<"==========================="<<endl;
+}

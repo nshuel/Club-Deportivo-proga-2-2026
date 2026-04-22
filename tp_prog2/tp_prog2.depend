@@ -70,3 +70,70 @@
 	"Socio.h"
 	<iostream>
 
+1776863499 source:c:\users\alumno\downloads\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\cargarcadena.cpp
+	<iostream>
+	<cstring>
+
+1776863499 source:c:\users\alumno\downloads\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\fecha.cpp
+	"Fecha.h"
+	<iostream>
+
+1776863498 c:\users\alumno\downloads\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\include\fecha.h
+
+1776863499 source:c:\users\alumno\downloads\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\funcionesmenus\funcionessocio.cpp
+
+1776863499 source:c:\users\alumno\downloads\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\inscripcion.cpp
+	"Inscripcion.h"
+
+1776863498 c:\users\alumno\downloads\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\include\inscripcion.h
+
+1776865734 source:c:\users\alumno\downloads\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\instructor.cpp
+	"Instructor.h"
+	<iostream>
+
+1776865616 c:\users\alumno\downloads\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\include\instructor.h
+	"Persona.h"
+	"Fecha.h"
+
+1776863998 c:\users\alumno\downloads\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\include\persona.h
+	"Fecha.h"
+
+1776863499 source:c:\users\alumno\downloads\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\menus.cpp
+	<iostream>
+	"Persona.h"
+
+1776865378 source:c:\users\alumno\downloads\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\persona.cpp
+	"persona.h"
+	"cstring"
+	"cargarCadena.h"
+	<iostream>
+
+1776863498 c:\users\alumno\downloads\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\include\cargarcadena.h
+
+1776865332 source:c:\users\alumno\downloads\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\socio.cpp
+	"Socio.h"
+	<iostream>
+
+1776863498 c:\users\alumno\downloads\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\include\socio.h
+	"Persona.h"
+	"Fecha.h"
+
+1776865290 source:c:\users\alumno\downloads\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\main.cpp
+	<iostream>
+	<stdio.h>
+	<filesystem>
+	<cstring>
+	"Persona.h"
+	"menus.h"
+	"Socio.h"
+
+1776863498 c:\users\alumno\downloads\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\include\menus.h
+
+1776863499 source:c:\users\alumno\downloads\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\clase.cpp
+	"Clase.h"
+
+1776863498 c:\users\alumno\downloads\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\include\clase.h
+	"Instructor.h"
+	"Fecha.h"
+	"Socio.h"
+

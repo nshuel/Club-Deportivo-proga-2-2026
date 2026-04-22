@@ -17,7 +17,8 @@ class Instructor : public Persona
         void setFechaContrato(Fecha f);
         Fecha getFechaContrato();
 
-    protected:
+        void cargar();
+        void mostrar();
 
 };
 
@@ -25,4 +26,4 @@ class Instructor : public Persona
 
 
 
-///clase - deporte - instructor - Socios - Fecha
+

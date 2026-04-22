@@ -22,7 +22,7 @@ class Inscripcion
         int getidActividad();
         void setidActividad(int);
 
-    protected:
+
 
 };
 

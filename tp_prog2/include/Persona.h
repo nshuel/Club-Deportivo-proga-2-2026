@@ -7,8 +7,8 @@ class Persona
 {
     private:
         int dni;
-        char apellido[50];
-        char nombre[50];
+        char apellido[30];
+        char nombre[30];
         Fecha fechaNacimiento;
         char email[50];
         int telefono;

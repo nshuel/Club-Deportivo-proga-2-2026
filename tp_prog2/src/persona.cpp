@@ -50,16 +50,17 @@ int Persona::getTelefono(){
 }
 
 void Persona::cargar(){
-    cout<<"NOMBRE: "<<endl;
-    cargarCadena(nombre,50);
-    cout<<"APELLIDO: "<<endl;
-    cargarCadena(apellido,50);
-    cout<<"DNI: "<<endl;
+    cout<<"NOMBRE: ";
+    cargarCadena(nombre,30);
+    cout<<"APELLIDO: ";
+    cargarCadena(apellido,30);
+    cout<<"DNI: ";
     cin>>dni;
-    cout<<"Fecha de nacimiento: "<<endl;
-    fechaNacimiento.Cargar();
-    cout<<"EMAIL: "<<endl;
+    cout<<"EMAIL: ";
     cargarCadena(email,50);
-    cout<<"TELEFONO: "<<endl;
+    cout<<"TELEFONO: ";
     cin>>telefono;
+    cout<<endl;
+    cout<<"FECHA DE NACIMIENTO: "<<endl;
+    fechaNacimiento.Cargar();
 }

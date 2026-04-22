@@ -44,15 +44,13 @@ float Socio::cuotaMensual()
     return arancelBasico; // falta sumar por cada deporte
 }
 
-/*void Socio::cargarSocio()
+void Socio::cargarSocio()
 {
-    cout<<"------- Cargar Socio: -------"<<endl;
-    cout<<"Ingrese nombre del socio: "<<endl;
-    cin>>nombre;
-    cout<<"Ingrese apellido del socio: "<<endl;
-    cin>>apellido;
-    cout<<"Ingrese DNI del socio: "<<endl;
-    cin>>dni;
-
+    cout<<"==========================="<<endl;
+    Persona::cargar();
+    cout<<endl;
+    cout<<"FECHA DE INSCRIPCION: "<<endl;
+    fechaDeInscripcion.Cargar();
+    cout<<"==========================="<<endl;
 }
-*/
+

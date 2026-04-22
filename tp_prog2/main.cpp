@@ -4,8 +4,7 @@
 #include <cstring>
 #include "Persona.h"
 #include "menus.h"
-
-#define existe(path) std::filesystem::exists(path)
+#include "Socio.h"
 
 using namespace std;
 void menuPrincipal(){
@@ -13,8 +12,8 @@ void menuPrincipal(){
 }
 int main()
 {
-    Persona obj;
-    obj.cargar();
+    Socio obj;
+    obj.cargarSocio();
     /*
     const char archivoAlumnos[] = "./archivos/Alumnos.dat";
     FILE *f_alumnos;

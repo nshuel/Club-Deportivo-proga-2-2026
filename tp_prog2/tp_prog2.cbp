@@ -23,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -37,7 +38,10 @@
 			<Option target="Debug" />
 			<Option target="Release" />
 		</UnitsGlob>
-		<Unit filename="include/Clase.h">
+		<Unit filename="include/Actividad.h">
+			<Option glob="3137897715" />
+		</Unit>
+		<Unit filename="include/ArchivoSocios.h">
 			<Option glob="3137897715" />
 		</Unit>
 		<Unit filename="include/Fecha.h">
@@ -64,7 +68,10 @@
 		<Unit filename="main.cpp">
 			<Option glob="3137897715" />
 		</Unit>
-		<Unit filename="src/Clase.cpp">
+		<Unit filename="src/Actividad.cpp">
+			<Option glob="3137897715" />
+		</Unit>
+		<Unit filename="src/ArchivoSocios.cpp">
 			<Option glob="3137897715" />
 		</Unit>
 		<Unit filename="src/Fecha.cpp">
