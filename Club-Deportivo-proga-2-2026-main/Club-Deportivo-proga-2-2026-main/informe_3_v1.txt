@@ -1,0 +1,86 @@
+INTRODUCCION:
+El sistema a desarrollar permitirá gestionar las inscripciones de socios, profesores, clases, sedes, pagos, etc. Para esto contará con un menú principal y una serie de submenús que serán la 
+interfaz gráfica para la gestión de lo dicho anteriormente.
+
+
+Descripción detallada del sistema:
+El sistema desarrollado tiene como objetivo poder llevar el control de los socios y las actividades dadas en el club deportivo. Los socios se guardaran con sus datos personales, como el nombre, apellido, fecha de nacimiento, DNI, ID del socio etc. Cada socio puede estar inscripto en varias actividades mediante su ID y el ID de la actividad, estas estarán guardadas con sus respectivos atributos, como por ejemplo el ID de esta, el estado, nombre y el precio, y cada una tendrá su instructor. Si hablamos de los pagos del sistema guardamos como atributos el ID del mismo, ID del socio, la fecha en la que se efectúa el pago, etc. El sistema contara con distintas instalaciones, las cuales las guardamos con su respectivo ID.
+
+SALIDAS DEL SISTEMA:
+Este sistema contara con tres tipos de salidas, las cuales son Listados, consultas e informes.
+
+LISTADOS:
+	-Listado de socios
+	-Listado de instructores
+	-Listado de Actividades
+	-Listado de pagos
+	-listados de inscripciones
+	-listados de instalaciones.
+
+CONSULTAS:
+	-Consultas de socios
+		- por ID
+		- por DNI
+
+	-Consulta de Actividades
+		- por ID
+		- por nombre
+		- por instructor
+
+	-Consultas de Instructores
+		- por ID
+		- por nombre
+		- por DNI
+		- por ID de actividad
+
+	-Consultas de inscripciones
+		- por ID del socio
+		- por ID de la actividad
+
+	-Consultas de pagos
+		- por ID del pago
+		- por ID del socio
+		- por rango de fecha
+
+	-Consultas de instalaciones
+		- por ID de la instalación
+		- por ID de la actividad
+		- por nombre
+
+INFORMES: 
+el sistema desarrollado contara con los siguientes reportes.
+
+	- Recaudación anual
+	- Cantidad de socios activos / inactivos
+	- Cantidad de inscripciones
+	- Recaudación por actividad
+	- Recaudación por socio
+	
+
+
+CONFIGURACION:
+Nuestro sistema contara con un apartado desarrollado sobre las funciones que permitirán la exportación e importación de los datos almacenados, con las cuales se podrá generar archivos CSV por cada archivo elaborado del sistema.
+	
+	-Copia de seguridad: esta función hará una copia de seguridad de todos los archivos del sistema a la vez, con un formato .bkup .
+	-Restaurar copia de seguridad: la función estará a cargo de aplicar la copia de seguridad creada con anterioridad, para completar la accion el usuario deberá escribir "ACEPTAR".
+	-Exportar datos: con esta función el usuario podrá exportar los archivos hacia un formato CSV.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
