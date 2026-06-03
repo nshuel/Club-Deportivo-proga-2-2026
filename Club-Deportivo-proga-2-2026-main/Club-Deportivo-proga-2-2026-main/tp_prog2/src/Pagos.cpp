@@ -3,9 +3,11 @@
 #include "Pagos.h"
 
 using namespace std;
-
-void Pago::setIdSocio(int id){
-    idSocio=id;
+void Pago::setIdPago(int idP){
+    idPago=idP;
+}
+void Pago::setIdSocio(int idS){
+    idSocio=idS;
 }
 
 void Pago::setMonto(float m){
@@ -18,6 +20,9 @@ void Pago::setFechaPago(Fecha f){
 
 void Pago::setEstado(bool e){
     estado=e;
+}
+int Pago::getIdPago(){
+    return idPago;
 }
 
 int Pago::getIdSocio(){
@@ -43,13 +48,10 @@ void Pago::cargar(){
     cin>>monto;
     cout<<"Ingrese la fecha del pago: ";
     fechaPago.Cargar();
-    cout<<"Ingrese el estado de la operacion: ";
-    cin>>estado;
 }
 
 void Pago::mostrar(){
     cout<<"ID del socio: "<<idSocio<<endl;
     cout<<"Monto pagado: "<<monto<<endl;
     cout<<"Fecha del pago: " ; fechaPago.Mostrar() ; cout <<endl;
-    cout<<"Estado de la operacion: "<<estado<<endl;
 }

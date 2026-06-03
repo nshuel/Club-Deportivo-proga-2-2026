@@ -9,6 +9,7 @@ class Instructor : public Persona
     private:
         int idInstructor;
         Fecha fechaContrato;
+        bool estado;
     public:
         Instructor();
         void setidInstructor(int id);
@@ -16,6 +17,9 @@ class Instructor : public Persona
 
         void setFechaContrato(Fecha f);
         Fecha getFechaContrato();
+
+        void setEstado(bool e);
+        bool getEstado();
 
         void cargar();
         void mostrar();

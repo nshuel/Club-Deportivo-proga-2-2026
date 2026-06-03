@@ -41,7 +41,16 @@
 		<Unit filename="include/Actividad.h">
 			<Option glob="3137897715" />
 		</Unit>
+		<Unit filename="include/ArchivoActividades.h">
+			<Option glob="3137897715" />
+		</Unit>
+		<Unit filename="include/ArchivoInscripciones.h">
+			<Option glob="3137897715" />
+		</Unit>
 		<Unit filename="include/ArchivoInstalaciones.h">
+			<Option glob="3137897715" />
+		</Unit>
+		<Unit filename="include/ArchivoInstructores.h">
 			<Option glob="3137897715" />
 		</Unit>
 		<Unit filename="include/ArchivoPagos.h">
@@ -50,10 +59,10 @@
 		<Unit filename="include/ArchivoSocios.h">
 			<Option glob="3137897715" />
 		</Unit>
-		<Unit filename="include/Clase.h">
+		<Unit filename="include/Fecha.h">
 			<Option glob="3137897715" />
 		</Unit>
-		<Unit filename="include/Fecha.h">
+		<Unit filename="include/FuncionesMenu.h">
 			<Option glob="3137897715" />
 		</Unit>
 		<Unit filename="include/Inscripcion.h">
@@ -86,16 +95,28 @@
 		<Unit filename="src/Actividad.cpp">
 			<Option glob="3137897715" />
 		</Unit>
-		<Unit filename="src/ArchivoInstalacion.cpp">
+		<Unit filename="src/ArchivoActividades.cpp">
+			<Option glob="3137897715" />
+		</Unit>
+		<Unit filename="src/ArchivoInscripciones.cpp">
+			<Option glob="3137897715" />
+		</Unit>
+		<Unit filename="src/ArchivoInstalaciones.cpp">
+			<Option glob="3137897715" />
+		</Unit>
+		<Unit filename="src/ArchivoInstructores.cpp">
+			<Option glob="3137897715" />
+		</Unit>
+		<Unit filename="src/ArchivoPagos.cpp">
 			<Option glob="3137897715" />
 		</Unit>
 		<Unit filename="src/ArchivoSocios.cpp">
 			<Option glob="3137897715" />
 		</Unit>
-		<Unit filename="src/Clase.cpp">
+		<Unit filename="src/Fecha.cpp">
 			<Option glob="3137897715" />
 		</Unit>
-		<Unit filename="src/Fecha.cpp">
+		<Unit filename="src/FuncionesMenu.cpp">
 			<Option glob="3137897715" />
 		</Unit>
 		<Unit filename="src/Inscripcion.cpp">

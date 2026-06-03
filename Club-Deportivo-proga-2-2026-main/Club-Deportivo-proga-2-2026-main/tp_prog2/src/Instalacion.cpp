@@ -3,7 +3,11 @@
 #include <cstring>
 #include "cargarCadena.h"
 using namespace std;
-
+Instalacion::Instalacion(){
+    idInstalacion = -1;
+    strcpy(tipo,"DEFAULT");
+    estado = true;
+}
 void Instalacion::setIdInstalacion(int id){
     idInstalacion=id;
 }

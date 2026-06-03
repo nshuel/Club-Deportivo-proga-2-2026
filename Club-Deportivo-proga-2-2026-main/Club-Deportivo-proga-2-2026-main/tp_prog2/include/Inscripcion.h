@@ -1,6 +1,6 @@
 #ifndef INSCRIPCION_H
 #define INSCRIPCION_H
-
+#include "Fecha.h"
 
 class Inscripcion
 {
@@ -8,6 +8,8 @@ class Inscripcion
         int idInscripcion;
         int idSocio;
         int idActividad;
+        Fecha fechaInscripcion;
+        bool estado;
 
     public:
         Inscripcion();
@@ -22,7 +24,13 @@ class Inscripcion
         int getidActividad();
         void setidActividad(int);
 
+        void setFechaInscripcion(Fecha);
+        Fecha getFechaInscripcion();
 
+        void setEstado(bool e);
+        bool getEstado();
+
+        void mostrar();
 
 };
 

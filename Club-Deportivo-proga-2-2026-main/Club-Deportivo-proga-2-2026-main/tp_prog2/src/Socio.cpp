@@ -4,14 +4,14 @@ using namespace std;
 
 Socio::Socio()
 {
-    fechaDeInscripcion = Fecha();
+    fechaDeIngreso = Fecha();
     idSocio = -1;
 }
 
 Socio::Socio(int id, Fecha f)
 {
     setidSocio(id);
-    setFechaInscripcion(f);
+    setFechaIngreso(f);
 }
 
 void Socio::setidSocio(int id)
@@ -27,24 +27,18 @@ bool Socio::getEstado(){
     return estado;
 }
 
-void Socio::setFechaInscripcion(Fecha f)
+void Socio::setFechaIngreso(Fecha f)
 {
-    fechaDeInscripcion.setFecha(f.getAnio() , f.getMes() , f.getDia());
+    fechaDeIngreso.setFecha(f.getAnio() , f.getMes() , f.getDia());
 }
 
 int Socio::getidSocio()
 {
     return idSocio;
 }
-Fecha Socio::getFechaInscripcion()
+Fecha Socio::getFechaIngreso()
 {
-    return fechaDeInscripcion;
-}
-
-float Socio::cuotaMensual()
-{
-    const int arancelBasico = 10000;
-    return arancelBasico; // falta sumar por cada deporte
+    return fechaDeIngreso;
 }
 
 void Socio::cargarSocio()
@@ -53,12 +47,17 @@ void Socio::cargarSocio()
     Persona::cargar();
     cout<<endl;
     cout<<"FECHA DE INSCRIPCION: "<<endl;
-    fechaDeInscripcion.Cargar();
+    fechaDeIngreso.Cargar();
     cout<<"==========================="<<endl;
 }
 
 void Socio::mostrarSocio()
 {
-
+    cout<<"==========================="<<endl;
+    Persona::mostrar();
+    cout<<endl;
+    cout<<"FECHA DE INSCRIPCION: "<<endl;
+    fechaDeIngreso.Mostrar();
+    cout<<"==========================="<<endl;
 }
 

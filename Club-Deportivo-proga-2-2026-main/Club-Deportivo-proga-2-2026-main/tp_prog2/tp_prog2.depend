@@ -137,3 +137,148 @@
 	"Fecha.h"
 	"Socio.h"
 
+1778155530 source:d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\main.cpp
+	<iostream>
+	<stdio.h>
+	<filesystem>
+	<cstring>
+	"Persona.h"
+	"menus.h"
+	"Socio.h"
+
+1778155530 d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\include\persona.h
+	"Fecha.h"
+
+1778155530 d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\include\fecha.h
+
+1778155530 d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\include\menus.h
+
+1779973366 d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\include\socio.h
+	"Persona.h"
+	"Fecha.h"
+
+1779974550 source:d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\actividad.cpp
+	<iostream>
+	"cstring"
+	"cargarCadena.h"
+	"Actividad.h"
+
+1778155530 d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\include\cargarcadena.h
+
+1779973006 d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\include\actividad.h
+	"Instructor.h"
+	"Fecha.h"
+	"Socio.h"
+
+1779974126 d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\include\instructor.h
+	"Persona.h"
+	"Fecha.h"
+
+1779974528 source:d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\archivoactividades.cpp
+	<iostream>
+	<cstring>
+	"ArchivoActividades.h"
+
+1779974076 d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\include\archivoactividades.h
+	"Actividad.h"
+
+1779974576 source:d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\archivoinscripciones.cpp
+	<iostream>
+	<cstring>
+	"ArchivoInscripciones.h"
+
+1779974302 d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\include\archivoinscripciones.h
+	"Inscripcion.h"
+
+1779974230 d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\include\inscripcion.h
+	"Fecha.h"
+
+1779974126 source:d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\archivoinstalaciones.cpp
+	<iostream>
+	<cstring>
+	"ArchivoInstalaciones.h"
+
+1779974080 d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\include\archivoinstalaciones.h
+	"Instalacion.h"
+
+1779375452 d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\include\instalacion.h
+
+1779974662 source:d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\archivoinstructores.cpp
+	<iostream>
+	<cstring>
+	"ArchivoInstructores.h"
+
+1779974614 d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\include\archivoinstructores.h
+	"Instructor.h"
+
+1779974942 source:d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\archivopagos.cpp
+	<iostream>
+	<cstring>
+	"ArchivoPagos.h"
+
+1779974896 d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\include\archivopagos.h
+	"Pagos.h"
+
+1778681224 d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\include\pagos.h
+	"Fecha.h"
+
+1779975436 source:d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\archivosocios.cpp
+	<iostream>
+	"ArchivoSocios.h"
+	<stdio.h>
+
+1779975262 d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\include\archivosocios.h
+	"Socio.h"
+
+1778155530 source:d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\cargarcadena.cpp
+	<iostream>
+	<cstring>
+
+1778155530 source:d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\fecha.cpp
+	"Fecha.h"
+	<iostream>
+
+1779975492 source:d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\funcionesmenu.cpp
+	"FuncionesMenu.h"
+	<iostream>
+
+1779974144 d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\include\funcionesmenu.h
+	"ArchivoSocios.h"
+	"ArchivoInstalaciones.h"
+	"ArchivoPagos.h"
+	"ArchivoInstructores.h"
+	"ArchivoActividades.h"
+	"ArchivoInscripciones.h"
+
+1778155530 source:d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\funcionesmenus\funcionessocio.cpp
+
+1779975528 source:d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\inscripcion.cpp
+	"Inscripcion.h"
+	<iostream>
+	"cstring"
+
+1778161136 source:d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\instalacion.cpp
+	<iostream>
+	"Instalacion.h"
+	<cstring>
+	"cargarCadena.h"
+
+1779973502 source:d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\instructor.cpp
+	"Instructor.h"
+	<iostream>
+
+1779973388 source:d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\pagos.cpp
+	<iostream>
+	<cstring>
+	"Pagos.h"
+
+1779975798 source:d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\persona.cpp
+	"persona.h"
+	"cstring"
+	"cargarCadena.h"
+	<iostream>
+
+1779973352 source:d:\club-deportivo-proga-2-2026-main\club-deportivo-proga-2-2026-main\tp_prog2\src\socio.cpp
+	"Socio.h"
+	<iostream>
+

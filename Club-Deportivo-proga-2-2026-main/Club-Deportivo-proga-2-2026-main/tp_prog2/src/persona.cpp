@@ -64,3 +64,15 @@ void Persona::cargar(){
     cout<<"FECHA DE NACIMIENTO: "<<endl;
     fechaNacimiento.Cargar();
 }
+
+void Persona::mostrar()
+{
+    cout<<"NOMBRE: " << nombre <<endl;
+    cout<<"APELLIDO: " << apellido <<endl;
+    cout<<"DNI: " << dni <<endl;
+    cout<<"EMAIL: " << email <<endl;
+    cout<<"TELEFONO: " << telefono <<endl;
+    cout<<"FECHA DE NACIMIENTO: "<<endl;
+    fechaNacimiento.Mostrar();
+}
+

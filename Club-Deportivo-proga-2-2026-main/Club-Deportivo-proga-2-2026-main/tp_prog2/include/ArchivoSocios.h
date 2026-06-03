@@ -11,15 +11,12 @@ class ArchivoSocios
         ArchivoSocios();
         ArchivoSocios(const char* archivo);
 
-        int cantidadRegistros();
+        int contarRegistros();
         int buscarSocio(int idS); ///devuelve la posicion
 
         void listarSocios();
-        void listarInactivos();
 
-        void cambiarEstado(int pos);
-
-        void modificarRegistro(int pos);
+        void modificarRegistro(int pos , Socio obj);
 
         void mostrarRegistro(int pos);
         Socio cargarRegistro(int pos);

@@ -9,10 +9,11 @@ public:
     ArchivoInstalacion(const char* n="Instalacion.dat");
     bool grabarRegistro(Instalacion);
     bool modificarRegistro(Instalacion,int);
-    void listarRegistros();
+    void listarInstalaciones();
     Instalacion leerRegistro(int);
     int contarRegistros();
-    int buscarRegistro(int);
+    int buscarInstalacion(int);
+    Instalacion cargarRegistro(int);
 };
 
 

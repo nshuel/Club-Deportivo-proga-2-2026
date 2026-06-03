@@ -7,6 +7,7 @@ private:
     char tipo[20];
     bool estado;
 public:
+    Instalacion();
     void setIdInstalacion(int);
     void setTipo(const char*);
     void setEstado(bool);

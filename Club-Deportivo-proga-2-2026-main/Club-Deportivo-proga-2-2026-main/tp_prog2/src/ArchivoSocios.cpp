@@ -11,7 +11,7 @@ ArchivoSocios::ArchivoSocios()
 
 ArchivoSocios::ArchivoSocios(const char* archivo){}
 
-int ArchivoSocios::cantidadRegistros()
+int ArchivoSocios::contarRegistros()
 {
     FILE * archivo = fopen(nombre,"rb");
     fseek(archivo, 0, SEEK_END);
@@ -27,8 +27,8 @@ int ArchivoSocios::buscarSocio(int idS) ///devuelve la posicion
 
     Socio buffer;
 
-    int cant = cantidadRegistros();
-    for (int i = 0 ; i < cantidadRegistros() ; i++)
+    int cant = contarRegistros();
+    for (int i = 0 ; i < cant ; i++)
     {
         fread(&buffer , sizeof(Socio),1,archivo);
         if(idS == buffer.getidSocio()){
@@ -46,8 +46,8 @@ void ArchivoSocios::listarSocios()
 
     Socio buffer;
 
-    int cant = cantidadRegistros();
-    for (int i = 0 ; i < cantidadRegistros() ; i++)
+    int cant = contarRegistros();
+    for (int i = 0 ; i < cant ; i++)
     {
         fread(&buffer , sizeof(Socio),1,archivo);
         if(buffer.getEstado()) buffer.mostrarSocio();
@@ -55,14 +55,15 @@ void ArchivoSocios::listarSocios()
     fclose(archivo);
     return;
 }
+/*
 void ArchivoSocios::listarInactivos()
 {
     FILE * archivo = fopen(nombre,"rb");
 
     Socio buffer;
 
-    int cant = cantidadRegistros();
-    for (int i = 0 ; i < cantidadRegistros() ; i++)
+    int cant = contarRegistros();
+    for (int i = 0 ; i < contarRegistros() ; i++)
     {
         fread(&buffer , sizeof(Socio),1,archivo);
         if(!buffer.getEstado()) buffer.mostrarSocio();
@@ -70,9 +71,17 @@ void ArchivoSocios::listarInactivos()
     fclose(archivo);
     return;
 }
-void ArchivoSocios::cambiarEstado(int pos){}
+*/
 
-void ArchivoSocios::modificarRegistro(int pos){}
+void ArchivoSocios::modificarRegistro(int pos , Socio obj){
+    FILE * archivo = fopen(nombre , "rb+");
+
+    fseek(archivo , pos * sizeof(Socio) , SEEK_SET);
+
+    fwrite(&obj , sizeof(Socio) , 1 , archivo);
+
+    fclose(archivo);
+}
 
 void ArchivoSocios::mostrarRegistro(int pos)
 {
@@ -80,7 +89,7 @@ void ArchivoSocios::mostrarRegistro(int pos)
 
     Socio buffer;
 
-    int cant = cantidadRegistros();
+    int cant = contarRegistros();
     fseek(archivo, pos*sizeof(Socio),SEEK_SET);
 
     fread(&buffer , sizeof(Socio),1,archivo);
@@ -95,7 +104,7 @@ Socio ArchivoSocios::cargarRegistro(int pos)
 
     Socio buffer;
 
-    int cant = cantidadRegistros();
+    int cant = contarRegistros();
     fseek(archivo, pos*sizeof(Socio),SEEK_SET);
 
     fread(&buffer , sizeof(Socio),1,archivo);
@@ -106,9 +115,14 @@ Socio ArchivoSocios::cargarRegistro(int pos)
 bool ArchivoSocios::grabarRegistro(Socio nuevoRegistro)
 {
     FILE * archivo = fopen(nombre , "ab");
-    fwrite(&nuevoRegistro , sizeof(Socio), 1, archivo);
+    bool escribio = fwrite(&nuevoRegistro , sizeof(Socio), 1, archivo);
     fclose(archivo);
+    return escribio;
 
 }
 
-int generarId(){}
+int ArchivoSocios::generarId(){
+    int nuevoId = contarRegistros() + 1;
+    if(nuevoId < 1) nuevoId = 1;
+    return nuevoId;
+}

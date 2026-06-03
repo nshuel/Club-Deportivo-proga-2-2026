@@ -9,27 +9,22 @@ class Socio : public Persona
     private:
         int idSocio;
         bool estado;
-        Fecha fechaDeInscripcion;
+        Fecha fechaDeIngreso;
 
     public:
         Socio();
         Socio(int, Fecha);
         void setidSocio(int id);
-        void setFechaInscripcion(Fecha f);
+        void setFechaIngreso(Fecha f);
         void setEstado(bool est);
 
 
         int getidSocio();
-        Fecha getFechaInscripcion();
+        Fecha getFechaIngreso();
         bool getEstado();
-
-        float cuotaMensual();
 
         void cargarSocio();
         void mostrarSocio();
-
-    protected:
-
 
 };
 

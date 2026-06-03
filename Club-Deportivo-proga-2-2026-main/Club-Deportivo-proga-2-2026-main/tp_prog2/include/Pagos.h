@@ -4,16 +4,19 @@
 
 class Pago{
 private:
+    int idPago;
     int idSocio;
     Fecha fechaPago;
     float monto;
     bool estado;
 public:
+    void setIdPago(int);
     void setIdSocio(int);
     void setFechaPago(Fecha);
     void setMonto(float);
     void setEstado(bool);
 
+    int getIdPago();
     int getIdSocio();
     Fecha getFechaPago();
     float getMonto();

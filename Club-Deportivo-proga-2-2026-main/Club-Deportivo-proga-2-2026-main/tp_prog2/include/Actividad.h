@@ -5,25 +5,26 @@
 #include "Fecha.h"
 #include "Socio.h"
 
-class Clase
+class Actividad
 {
     private:
-        Instructor instructor;
+        int idInstructor;
         ///Socio* socios;
-        const char* deporte;
+        char deporte[30];
         Fecha fechaActividad;
         float precioActividad;
-        int idClase;
-
+        int idActividad;
+        bool estado;
 
     public:
-        Clase();
+        Actividad();
 
-        Instructor getInstructor();
-        void setInstructor(Instructor i);
+        int getInstructor();
+        void setInstructor(int id);
 
         const char* getDeporte();
-        ///setDeporte()
+        void setDeporte(const char *);
+
 
         Fecha getFechaActividad();
         void setFechaActividad(Fecha f);
@@ -37,8 +38,11 @@ class Clase
         int getidActividad();
         void setidActividad(int id);
 
-    protected:
+        void setEstado(bool e);
+        bool getEstado();
 
+        void cargar();
+        void mostrar();
 };
 
 #endif // CLASE_H

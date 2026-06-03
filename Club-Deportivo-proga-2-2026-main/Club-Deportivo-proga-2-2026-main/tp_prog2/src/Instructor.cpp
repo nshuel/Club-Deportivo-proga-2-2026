@@ -8,15 +8,9 @@ Instructor::Instructor()
     idInstructor = -1;
 }
 
-/*Instructor::Instructor(int id, Fecha f)
-(
-    setIdInstructor(id);
-    setFechaContrato(f);
- )
-*/
- void Instructor::setidInstructor(int id)
+ void Instructor::setidInstructor(int idI)
  {
-    idInstructor=id;
+    idInstructor=idI;
  }
 
  void Instructor::setFechaContrato(Fecha f)
@@ -33,6 +27,12 @@ Instructor::Instructor()
  {
      return fechaContrato;
  }
+ void Instructor::setEstado(bool e){
+    estado = e;
+ }
+ bool Instructor::getEstado(){
+    return estado;
+ }
 void Instructor::cargar()
 {
     cout<<"==========================="<<endl;
@@ -41,4 +41,11 @@ void Instructor::cargar()
     cout<<"FECHA DE CONTRATO: "<<endl;
     fechaContrato.Cargar();
     cout<<"==========================="<<endl;
+}
+void Instructor::mostrar(){
+    Persona::mostrar();
+    cout<<endl;
+    cout<<"FECHA DE CONTRATO: "<<endl;
+    fechaContrato.Mostrar();
+    cout<<endl;
 }
